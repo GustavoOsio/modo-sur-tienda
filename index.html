@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cover.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -33,7 +34,7 @@
       <a class="brand" href="#inicio" aria-label="MODO SUR, inicio"><span class="brand-mark">M<span>S</span></span><span class="brand-name">MODO<br />SUR<span class="brand-period">.</span></span></a>
       <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
       <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
-        <a href="#coleccion">Colección</a><a href="#historia">Nuestra onda</a><a href="#comunidad">Comunidad</a>
+        <a href="#portada">Portada</a><a href="#coleccion">Colección</a><a href="#historia">Nuestra onda</a><a href="#comunidad">Comunidad</a>
       </nav>
       <div class="header-actions"><button class="icon-button search-toggle" aria-label="Ir al buscador"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button><button class="cart-button" id="open-cart" aria-label="Abrir carrito, 0 productos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.5L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="cart-label">Bolsa</span><span class="cart-count" id="cart-count">0</span></button></div>
     </header>
@@ -41,11 +42,20 @@
     <main id="contenido">
       <section class="hero" id="inicio" aria-labelledby="hero-title">
         <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> CALLE · ESTILO · ACTITUD</p><h1 id="hero-title">Ponte<br />en <span>modo</span><br />tuyo<span class="hero-star" aria-hidden="true">✳</span></h1><p class="hero-description">La calle no tiene uniforme. Encuentra ropa y tenis que hablan como tú.</p><a class="button button-dark" href="#coleccion">Explorar colección <span aria-hidden="true">↘</span></a><div class="hero-note"><span class="note-sun" aria-hidden="true">☼</span><span>Tu estilo.<br />Tus reglas.</span></div></div>
-        <div class="hero-art" aria-label="Fotografía de moda urbana" role="img"><div class="hero-photo"></div><div class="hero-sticker">SIN<br />PEDIR<br />PERMISO <span>↗</span></div><div class="hero-vertical">CHIRIGUANÁ, COLOMBIA · 2025</div><div class="hero-caption"><span>DROP 01</span><span>LO NUEVO ESTÁ AQUÍ</span></div><div class="hero-orbit" aria-hidden="true">MS</div></div>
+        <div class="hero-art" aria-label="Fotografía de moda urbana" role="img"><div class="hero-photo"></div><div class="hero-sticker">SIN<br />PEDIR<br />PERMISO <span>↗</span></div><div class="hero-vertical">CHIRIGUANÁ, COLOMBIA · 2026</div><div class="hero-caption"><span>DROP 01</span><span>LO NUEVO ESTÁ AQUÍ</span></div><div class="hero-orbit" aria-hidden="true">MS</div></div>
         <div class="hero-bottom"><span>DESLIZA PARA DESCUBRIR</span><span class="scroll-line" aria-hidden="true"></span><span>01 / 04</span></div>
       </section>
 
       <section class="ticker" aria-label="Mensaje de marca"><div class="ticker-track"><span>VISTE LO QUE ERES</span><i>✳</i><span>MUÉVETE A TU RITMO</span><i>✳</i><span>VISTE LO QUE ERES</span><i>✳</i><span>MUÉVETE A TU RITMO</span><i>✳</i></div></section>
+
+      <section class="academic-cover" id="portada" aria-labelledby="cover-title">
+        <div class="cover-kicker"><span>INSTITUCIÓN EDUCATIVA JUAN MEJÍA GÓMEZ</span><span>CHIRIGUANÁ · CESAR · 2026</span></div>
+        <div class="cover-layout">
+          <div class="cover-title-block"><p class="eyebrow"><span class="eyebrow-line"></span> PORTADA ACADÉMICA · INFORMÁTICA</p><h2 id="cover-title">Tienda<br />juvenil<br /><span>Modo Sur.</span></h2><div class="cover-grade"><strong>602</strong><span>GRADO<br />BACHILLERATO</span></div></div>
+          <div class="cover-details"><div class="cover-project-label"><span>PROYECTO ESCOLAR</span><span class="cover-project-star" aria-hidden="true">✳</span></div><h3>Diseño y desarrollo de una tienda web de ropa y calzado para jóvenes.</h3><div class="cover-students"><p class="cover-label">INTEGRANTES</p><ol><li><span>01</span>Kemdra Hernández</li><li><span>02</span>Hilary Dagil</li><li><span>03</span>Liss Mercado</li></ol></div><div class="cover-review"><div><span class="cover-label">DOCENTE / TUTOR</span><span class="review-line"></span></div><div><span class="cover-label">CALIFICACIÓN</span><span class="review-line review-grade"></span></div></div><p class="cover-subject">MATERIA <strong>Informática</strong></p></div>
+        </div>
+        <div class="cover-footer"><span>TRABAJO DE AULA · GRADO 602</span><span>MODO SUR — VISTE A TU MANERA</span><a href="#coleccion">Ver la tienda <span aria-hidden="true">↘</span></a></div>
+      </section>
 
       <section class="collection section-wrap" id="coleccion" aria-labelledby="collection-title">
         <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> SELECCIÓN DE LA CASA</p><h2 id="collection-title">Piezas con<br /><span>personalidad.</span></h2></div><p class="section-intro">Para el salón, el parche y todo lo que pasa entre uno y otro.</p></div>

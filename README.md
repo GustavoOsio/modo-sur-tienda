@@ -12,6 +12,7 @@ Abre `index.html` en un navegador moderno. El proyecto usa HTML, CSS y JavaScrip
 - Bolsa de compra interactiva con cantidades, eliminación de productos y total en pesos colombianos.
 - Persistencia del carrito en el almacenamiento local del navegador.
 - Navegación móvil desplegable, mensajes de confirmación y formulario de novedades demostrativo.
+- Entrada «Portada» con integrantes, institución, grado y espacios para docente y calificación.
 - Diseño adaptable, enlaces de navegación, etiquetas semánticas y soporte para movimiento reducido.
 - Metadatos para buscadores, Open Graph y marcado estructurado Schema.org para tienda.
 
@@ -19,6 +20,7 @@ Abre `index.html` en un navegador moderno. El proyecto usa HTML, CSS y JavaScrip
 
 - `index.html`: contenido, navegación y metadatos SEO.
 - `styles.css`: identidad visual, diseño adaptable y animaciones.
+- `cover.css`: presentación académica y sus ajustes para pantallas pequeñas.
 - `script.js`: catálogo, filtros, búsqueda, bolsa y formulario.
 - `PROYECTO.md`: contexto, objetivo, estrategia, alcance y próximos pasos.
 

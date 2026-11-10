@@ -20,11 +20,12 @@ Personas jóvenes de 14 a 30 años interesadas en moda cotidiana, ropa informal 
 ## Recorrido
 
 1. La portada introduce la marca y ofrece acceso directo a la colección.
-2. El catálogo deja explorar todo, ropa, calzado o accesorios; la búsqueda acepta nombres y categorías.
-3. La bolsa permite modificar cantidades y ver un total estimado en pesos colombianos.
-4. Las secciones de marca y comunidad expresan el concepto y muestran cómo participar.
-5. El formulario de novedades confirma una suscripción simulada.
-6. El pie de página identifica claramente a los creadores y a la institución.
+2. La entrada «Portada» presenta el trabajo escolar, los integrantes, la institución, el grado, la materia y espacios para que el docente escriba su nombre y calificación.
+3. El catálogo deja explorar todo, ropa, calzado o accesorios; la búsqueda acepta nombres y categorías.
+4. La bolsa permite modificar cantidades y ver un total estimado en pesos colombianos.
+5. Las secciones de marca y comunidad expresan el concepto y muestran cómo participar.
+6. El formulario de novedades confirma una suscripción simulada.
+7. El pie de página identifica claramente a los creadores y a la institución.
 
 ## Marketing y conversión
 
